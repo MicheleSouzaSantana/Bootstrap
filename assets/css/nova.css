@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #f37520;
+    min-height: 10vh;
+    margin: 2vh auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 30px;
+}
+
+.titulo {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Nova Pagina</title><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"><!-- <link rel="stylesheet" href="nova.css">--><link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'></head><body>.menu {
+    text-align: left;
+}
+
+.col-6 {
+    text-align: center;
+    padding: 30px;
+}
+
+.col-12 {
+    margin: 5px;
+}
+
+.menu-nav {
+    background-color: #EDEDED;
+    min-height: 55vh;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+footer {
+    background-color: #454545;
+    min-height: 15vh;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}

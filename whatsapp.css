@@ -1,0 +1,26 @@
+        .header {
+            background-color: #eeeeee;
+            max-height: 80px;
+        }
+        
+        .img-michele {
+            max-height: 50px;
+        }
+        
+        .tela {
+            background-color: #e5ddd5;
+            height: 70vh;
+        }
+        
+        .img-2 {
+            max-height: 45px;
+            padding-right: 20px;
+        }
+        
+        .tela2 {
+            background-color: #eeeeee;
+        }
+        
+        .texto-gordo {
+            font-weight: 700;
+        }

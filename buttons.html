@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Pagina</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="nova.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<div class="container">
+    
+   <div class="row">
+        <div class="col">
+
+            <button class="btn btn-primary">ok</button>
+            <button class="btn btn-secondary">ok</button>
+            <button class="btn btn-success">ok</button>
+            <button class="btn btn-warning">ok</button>
+            <button class="btn btn-danger">ok</button>
+            <button class="btn btn-info">ok</button>
+            <button class="btn btn-dark">ok</button>
+            <button class="btn btn-light">ok</button>
+            <button class="btn btn-link">ok</button>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <input type="button" class="btn btn-primary" value="ok">
+            <a href="" class="btn btn-primary">ok</a>
+            <button class="btn btn-primary">ok</button>
+        </div>
+    </div>
+
+   
+    <div class="row">
+        <div class="col"><button class="btn btn-outline-primary">ok</button></div>
+    
+    </div>
+
+    <div class="row">
+        
+        <div class="col"><button class="bnt btn-success btn-lg">ok</button>
+            <button class="btn btn-danger btn-sm">ok</button>
+            
+        </div>    
+    
+    </div>
+
+    
+    <div class="row">
+        <div class="col"><button class="btn btn-primary btn-block">ok</button></div>
+   
+    </div>
+
+
+    <div class="row">
+        <div class="col"><a href="" class="btn btn-primary actibe btn-block" aria-pressed="true">link</a></div>
+    
+    </div>
+
+
+    <div class="row">
+        <div class="col"><button class="btn btn-primary btn-block" disabled>ok</button></div>
+    
+    </div>
+
+    <div class="row">
+        <div class="col"><button class="btn btn-success" id="btn-auto-save" data-toggle="button">Auto save</button></div>
+   
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            
+                <label for="" class="btn btn-secondary" active><input type="radio" name="options" id="option1">1</label>
+                
+                <label for="" class="btn btn-secondary"><input type="radio" name="options" id="option2" checked>2</label>
+            
+                <label for="" class="btn btn-secondary"><input type="radio" name="options" id="option3">3</label>
+        
+            </div>     
+        
+        </div>
+    </div>
+
+
+    <button class="btn btn-primary" id="btn-click">ativa/desativa auto save</button>
+    
+    
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script>
+        $(() => {
+
+            $('#btn-click').on('click', e => {
+
+                $('#btn-auto-save').button ('toggle');
+            });   
+
+
+         });
+    </script>
+
+</div>
+    
+
+
+
+</div>
+
+</body>
