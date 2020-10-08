@@ -1,0 +1,47 @@
+
+
+.logo{
+    height: 30px;
+}
+
+.input{
+    widows: 30px;
+    float: right;
+    background-color: black;
+}
+
+.avatar{
+    height: 30px;
+}
+
+.capa{
+    background-image: url(../curso-bootstrap-4-layout-netflix-master/assets/img/full-banner.jpg);
+    height:90vh
+}
+
+.menu1{
+    background-color: #1b1b1b;
+}
+
+.texto-branco{
+    color: #ffffff;
+}
+
+.texto-cinza{
+    color: #999898;
+}
+
+.header{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.9956933456976541) 3%, rgba(255,255,255,0) 100%);
+    margin-bottom: -60px;
+    z-index: 5;
+}
+
+.bg-fundo{
+    background-color: #1b1b1b;
+}
+
+.footer{
+    background-color: #1b1b1b;
+}
